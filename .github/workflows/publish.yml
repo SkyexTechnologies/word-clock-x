@@ -1,15 +1,18 @@
 name: Build and Publish ESPHome firmware and website
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
 
 jobs:
-  build:
+  publish-word-clock-x:
+    name: Publish Word Clock X
     uses: esphome/workflows/.github/workflows/publish.yml@main
     with:
-      # CHANGEME: Set the filenames of your config files here:
-      files: project-template-esp32.yaml,project-template-esp8266.yaml
-      # CHANGEME: Set the name of your project here:
-      name: Template Project
+      files: word-clock-x.yaml
+      name: Word Clock X
+      manifest_filename: word-clock-x-manifest.json
+      clean: false
+      esphome_version: latest

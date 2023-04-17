@@ -1,4 +1,3 @@
-# CHANGEME: Set these variable to your liking
-title: ESPHome Project Template
-description: Powered by ESPHome and ESP Web Tools
+title: Word Clock X
+description: Documentation for the Word Clock X smart clock!
 theme: jekyll-theme-slate
