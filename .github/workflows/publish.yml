@@ -7,7 +7,7 @@ on:
       - main
 
 concurrency:
-  group: "pages"
+  group: "publish"
   cancel-in-progress: true
 
 jobs:
