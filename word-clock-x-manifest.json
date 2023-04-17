@@ -1,0 +1,17 @@
+{
+  "name": "Word Clock X",
+  "version": "",
+  "home_assistant_domain": "esphome",
+  "new_install_skip_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        {
+          "path": "word-clock-x-esp8266/word-clock-x-esp8266.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
