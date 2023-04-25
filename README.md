@@ -1,4 +1,5 @@
 # Word Clock X
+![Build and Publish ESPHome Firmware and Website](https://github.com/SkyexTechnologies/word-clock-x/actions/workflows/publish.yml/badge.svg) [![License: MIT](https://img.shields.io/github/license/SkyexTechnologies/word-clock-x.svg)](https://opensource.org/licenses/MIT)
 
 The Word Clock X is not just a regular clock but a creative and unique RGB clock that displays the time using words. It is a perfect fit for anyone who wants to add a touch of innovation to their home or office.
 

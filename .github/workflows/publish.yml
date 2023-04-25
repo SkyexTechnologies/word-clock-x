@@ -1,4 +1,4 @@
-name: Build and Publish ESPHome firmware and website
+name: Build and Publish ESPHome Firmware and Website
 
 on:
   workflow_dispatch:
