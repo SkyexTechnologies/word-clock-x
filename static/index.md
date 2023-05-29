@@ -6,7 +6,7 @@ nav_order: 1
 
 Welcome to the documentation for the Word Clock X!
 
-TEST
+TEST 
 
 <esp-web-install-button manifest="./word-clock-x-manifest.json"></esp-web-install-button>
 
